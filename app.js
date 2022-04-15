@@ -18,5 +18,6 @@ app.use("/", indexRouter);
 app.use("/users", usersRouter);
 
 app.use("/.netlify/functions/server", indexRouter);
+app.use("/.netlify/functions/server/users", usersRouter);
 
 module.exports = app;
