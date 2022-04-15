@@ -4,7 +4,7 @@
   "description": "An Express-based application skeleton",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build .",
+    "build": "netlify-lambda build functions",
     "start": "nodemon index.js localhost 8080"
   },
   "dependencies": {
@@ -18,8 +18,5 @@
   "devDependencies": {
     "nodemon": "1.18.4"
   },
-  "keywords": [
-    "expressjs",
-    "express"
-  ]
+  "keywords": ["expressjs", "express"]
 }
