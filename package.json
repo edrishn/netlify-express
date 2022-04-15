@@ -4,7 +4,7 @@
   "description": "An Express-based application skeleton",
   "main": "functions/server.js",
   "scripts": {
-    "build": "netlify-lambda build netlify",
+    "build": "netlify-lambda build netlify/functions",
     "start": "nodemon index.js localhost 8080"
   },
   "dependencies": {
