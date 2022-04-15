@@ -2,7 +2,7 @@
   "name": "express-example-starter",
   "version": "1.0.0",
   "description": "An Express-based application skeleton",
-  "main": "index.js",
+  "main": "functions/server.js",
   "scripts": {
     "build": "netlify-lambda build express",
     "start": "nodemon index.js localhost 8080"
